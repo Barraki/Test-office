@@ -15765,6 +15765,10 @@ p {
 	font-size: 14px;
 }
 
+.righttxt p {
+	text-align: justify !important;
+}
+
 h2 a {
 	color: #E50000;
 }
