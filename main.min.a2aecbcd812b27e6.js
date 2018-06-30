@@ -3312,10 +3312,10 @@
 			var b = window.Waypoint;
 			window.jQuery && (window.jQuery.fn.waypoint = a(window.jQuery)), window.Zepto && (window.Zepto.fn.waypoint = a(window.Zepto))
 		}()
-	}, {}],
+	}],
 
 	16: [function (a, b, c) {
-		a("./modules/header-dropdown"), a("./modules/header-waypoints"), a("./modules/infinite-scroll-jammie"), a("./modules/infinite-scroll-reading-list"), a("./modules/reading-list"), a("./modules/polls"), a("./modules/votingGalleries"), a("./modules/login-and-registration"), a("./modules/ads"), a("./modules/content-comment"), a("./modules/social-sharing"), a("./modules/enlarge-image"), a("./modules/gtm-datalayer"), a("./modules/error-pages"), a("./modules/module-video"), a("./modules/exact-target-signup"), a("./pages/home"), a("./pages/celebrities"), a("../../../global/src/js/picturefill")
+		a("./modules/header-dropdown"), a("./modules/header-waypoints"), a("./modules/infinite-scroll-reading-list"), a("./modules/reading-list"), a("./modules/polls"), a("./modules/votingGalleries"), a("./modules/login-and-registration"), a("./modules/ads"), a("./modules/content-comment"), a("./modules/social-sharing"), a("./modules/enlarge-image"), a("./modules/gtm-datalayer"), a("./modules/error-pages"), a("./modules/module-video"), a("./modules/exact-target-signup"), a("./pages/home"), a("./pages/celebrities"), a("../../../global/src/js/picturefill")
 	}, {
 		"../../../global/src/js/picturefill": 15,
 		"./modules/ads": 17,
@@ -3327,7 +3327,6 @@
 		"./modules/header-dropdown": 23,
 		"./modules/header-waypoints": 24,
 		"./modules/infinite-scroll-jammie": 25,
-		"./modules/infinite-scroll-reading-list": 26,
 		"./modules/login-and-registration": 27,
 		"./modules/module-video": 28,
 		"./modules/polls": 31,
@@ -3374,17 +3373,3 @@
 	
 
 }, {}, [16]);
-
-$(document).ready(function today() {
-			var mydate = new Date();
-			var year = mydate.getYear();
-			if (year < 1000) year += 1900;
-			var day = mydate.getDay();
-			var month = mydate.getMonth();
-			var daym = mydate.getDate();
-			if (daym < 10) daym = "0" + daym;
-			var dayarray = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
-			var montharray = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September",
-				"October", "November", "December");
-			document.write("" + dayarray[day] + ", " + montharray[month] + " " + daym + ", " + year + "");
-})

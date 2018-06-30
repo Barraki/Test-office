@@ -13,8 +13,9 @@
 
 	<link rel="icon" href="http://assets.wennermedia.com/usweekly/static/favicon.ico" type="image/x-icon">
 	<meta name="theme-color" content="#ffffff">
-	<link rel="stylesheet" href="bootstrap.css">
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="bootstrap.css">
+
 
 
 	<script>
@@ -31,6 +32,23 @@
 				"October", "November", "December");
 			document.write("" + dayarray[day] + ", " + montharray[month] + " " + daym + ", " + year + "");
 		}
+		var kgConverter = function(unit, amount) {
+        var weight;
+        switch (unit) {
+            case 'kg':
+                weight = amount * 1;
+                return document.write(Math.round(weight) + " " + unit);
+                break;
+            case 'lbs':
+                weight = amount * 2.20462;
+                return document.write(Math.round(weight) + " " + unit);
+                break;
+            case 'stone':
+                weight = amount * 0.157473;
+                return document.write(weight.toFixed(1) + " " + unit);
+                break;
+        }
+    }
 	</script>
 </head>
 
@@ -306,7 +324,7 @@
 
 						</p>
 						<img src="gcoz.jpg">
-						<div style="background: #ffc; padding: 10px; font-size: 18px; font-style:">
+						<div style="background: #ffc; padding: 10px; font-size: 18px;">
 							<?= $productName; ?> has been featured by renowned Dr. Oz on his television show as well as NBC, CNN, ABC, Fox and other news outlets!
 								<br>
 						</div>
@@ -1143,10 +1161,8 @@
 
 			</div>
 		</div>
-
-		<div style="display: none; width: 231.062px; height: 874px; float: none;"></div>
-	</div>
 </div>
+
 	<script type="text/javascript" src="jquery.min.js"></script>
 	<script type="text/javascript" src="jquery-scrolltofixed.js"></script>
 	<script src="modernizr.js"></script>
@@ -1155,7 +1171,8 @@
 			marginTop: 43
 		});
 	</script>
-	<script src="main.min.a2aecbcd812b27e6.js" type="text/javascript"></script>
+	 <script src="main.min.a2aecbcd812b27e6.js" type="text/javascript"></script> 
+	<!-- <script src="main.js" type="text/javascript"></script> -->
 </body>
 
 </html>

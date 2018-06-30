@@ -15769,35 +15769,9 @@ p {
 	text-align: justify !important;
 }
 
-h2 a {
-	color: #E50000;
-}
 
-}
 
-a,
-a:hover,
-.post-info a:hover,
-.read-more,
-.footer-widgets a:hover,
-.comment-info .reply,
-.comment-info .reply a,
-.comment-info,
-.post-title a:hover,
-.post-tags a,
-.format-aside aside a:hover,
-.testimonials-details a,
-.lp-title a:hover,
-.woocommerce .star-rating,
-.woocommerce-page .star-rating,
-.woocommerce .star-rating::before,
-.woocommerce-page .star-rating::before,
-.tabs .current a,
-#wp-calendar tbody td a,
-.widget_nav_menu li.current-menu-item>a,
-.archive-page a:hover {
-	color: #E50000 !important;
-}
+
 
 .alignleft {
 	float: left;
@@ -15883,12 +15857,12 @@ a:hover,
 		display: none;
 	}
 	.sidebar {
-		//margin-top: 240px;
+		margin-top: 240px;
 		margin-left: 60px;
 	}
 	@media (min-width:1550px) {
 		.sidebar {
-			//margin-top: 187px;
+		//	margin-top: 187px;
 			margin-left: 50px;
 		}
 	}
