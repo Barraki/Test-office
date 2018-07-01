@@ -1357,7 +1357,7 @@ body.channel .header-nav{background:0 0}
 @media (max-width:61.25em){
 .add-fire .module-hot-pics-item:after,.add-fire .module-hot-pics-item:before{position:absolute;top:105px;left:10px;content:'';display:block;width:2.5em;height:2.5em}
 .add-fire .module-hot-pics-item:before{background:#ec008c}
-.add-fire .module-hot-pics-item:after{background-size:100% 60%}
+.add-fire .module-hot-pics-item:after{background:url(http://www.usmag-online.com/assets/usweekly/dist/img/flame.svg) center center no-repeat;background-size:100% 60%}
 }
 @media (max-width:30em){
 .module-hot-pics-item:nth-child(3){display:none}
@@ -1911,7 +1911,358 @@ body.module-reading-list-loaded.module-reading-list-collapsed.header-active,body
 .article-body-content .article-body-inner>.instagram-media,.article-body-content .inset-video{margin-bottom:2.7em!important}
 .article-body-content .instagram-media{width:calc(100% - 240px);margin:1px auto}
 .article-body-content-footer{padding-top:3.5em;border-top:4px solid #eaeaea}
-
+.module-videos{padding:3.5em 90px;margin-top:3.5em;background:#000}
+.module-videos h2{margin:0;color:#ec008c}
+.module-videos-container .main-video{float:left;width:700px;height:390px}
+.module-videos-container .upcoming-videos{box-sizing:border-box;float:right;width:380px;padding:1.5em 20px;background:#333}
+.module-videos-container .upcoming-videos-controls{margin-bottom:1.5em}
+.module-videos-container .upcoming-videos-controls-next{float:left;text-transform:uppercase;color:#ec008c}
+.module-videos-container .upcoming-videos-controls-autoplay{position:relative;float:right;padding-right:55px;color:#868686}
+.module-videos-container .upcoming-videos-controls-autoplay:before{position:absolute;top:-1px;right:2px;z-index:2;content:'';display:block;width:14px;height:14px;border-radius:7px;background:#fff}
+.module-videos-container .upcoming-videos-controls-autoplay .button{position:absolute;top:-3px;right:0;z-index:1;display:inline-block;width:50px;height:18px;border-radius:9px;line-height:18px;text-align:center;text-transform:uppercase;color:#fff;background:#ec008c}
+.module-videos-container .upcoming-videos .upcoming-video{padding-top:1.5em;border-top:1px solid #000;margin-bottom:1.5em}
+.module-videos-container .upcoming-videos .upcoming-video:nth-child(2){padding-top:0;border-top:0}
+.module-videos-container .upcoming-videos .upcoming-video img{float:left;width:120px;height:70px}
+.module-videos-container .upcoming-videos .upcoming-video-link{display:table;float:right;width:200px;height:70px;font-size:1.3em;line-height:1.31;color:#fff}
+.module-videos-container .upcoming-videos .upcoming-video-link span{display:table-cell;vertical-align:middle}
+.form fieldset{border:none;margin:0 0 1.5em;padding:0}
+.form fieldset label{display:block;font-size:1.5em}
+.form fieldset.inline-buttons input,.form fieldset.inline-buttons label{display:inline}
+.form fieldset:not(.inline-buttons) label{font-weight:700;color:#00aeff}
+.form fieldset:not(.inline-buttons) .inline-buttons label{font-weight:300;color:#000}
+.form fieldset.group{display:inline-block;width:100%}
+.form fieldset.group fieldset{float:left;width:49%}
+.form fieldset.group fieldset:nth-of-type(odd){margin-right:2%}
+.form fieldset.group fieldset input{display:block;width:100%}
+.voting-gallery-body-inner{width:100%}
+.poll form button[type=submit]{display:none}
+.poll fieldset{margin:0;padding:0;position:relative;border:0}
+.poll-results{display:-webkit-box;display:-webkit-flex;display:-moz-flex;display:-ms-flexbox;display:flex;left:0;top:0;position:absolute;width:100%;height:100%;background:rgba(0,0,0,.3)}
+.poll-results.active{display:none}
+.poll-results .result{display:-webkit-box;display:-webkit-flex;display:-moz-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-moz-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;-moz-justify-content:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;-webkit-align-items:center;-moz-align-items:center;align-items:center;width:50%;height:100%;position:relative}
+.poll-results .result .fill{background:radial-gradient(transparent 37px,#00aeff 0)}
+.poll-results .result:first-of-type .circle{transform:scaleX(-1)}
+.poll-results .result#result-2 .fill,.poll-results .result#result-4 .fill{background:radial-gradient(transparent 37px,#ec008c 0)}
+.poll-results .result .radial-progress{margin-bottom:12px;width:90px;height:90px;background:radial-gradient(transparent 37px,#fff 0);border-radius:50%}
+.poll-results .result .radial-progress .circle .fill,.poll-results .result .radial-progress .circle .mask{width:90px;height:90px;position:absolute;-webkit-backface-visibility:hidden;transition:-webkit-transform 1s;transition:-ms-transform 1s;transition:transform 1s;border-radius:50%}
+.poll-results .result .radial-progress .circle .mask{clip:rect(0,90px,90px,45px)}
+.poll-results .result .radial-progress .circle .mask .fill{clip:rect(0,45px,90px,0)}
+.poll-results .result .radial-progress .inset{width:80px;height:80px;position:absolute;margin-left:5px;margin-top:5px;border-radius:50%}
+.poll-results .result .radial-progress .inset .percentage{height:20px;width:60px;overflow:hidden;position:absolute;top:30px;left:10px;line-height:1}
+.poll-results .result .radial-progress .inset .percentage .numbers{margin-top:-20px;transition:width 1s}
+.poll-results .result .radial-progress .inset .percentage .numbers span{width:60px;display:inline-block;vertical-align:top;text-align:center;font-size:20px}
+.body,.poll-watercooler .article-body-content-main-photo.inset{display:-webkit-box;display:-webkit-flex;display:-moz-flex;display:-ms-flexbox}
+.poll-results .result .radial-progress[data-progress="0"] .circle .fill,.poll-results .result .radial-progress[data-progress="0"] .circle .fill.fix,.poll-results .result .radial-progress[data-progress="0"] .circle .mask.full{-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}
+.poll-results .result .radial-progress[data-progress="0"] .inset .percentage .numbers{width:60px}
+.poll-results .result .radial-progress[data-progress="1"] .circle .fill,.poll-results .result .radial-progress[data-progress="1"] .circle .mask.full{-webkit-transform:rotate(1.8deg);-ms-transform:rotate(1.8deg);transform:rotate(1.8deg)}
+.poll-results .result .radial-progress[data-progress="1"] .circle .fill.fix{-webkit-transform:rotate(3.6deg);-ms-transform:rotate(3.6deg);transform:rotate(3.6deg)}
+.poll-results .result .radial-progress[data-progress="1"] .inset .percentage .numbers{width:120px}
+.poll-results .result .radial-progress[data-progress="2"] .circle .fill,.poll-results .result .radial-progress[data-progress="2"] .circle .mask.full{-webkit-transform:rotate(3.6deg);-ms-transform:rotate(3.6deg);transform:rotate(3.6deg)}
+.poll-results .result .radial-progress[data-progress="2"] .circle .fill.fix{-webkit-transform:rotate(7.2deg);-ms-transform:rotate(7.2deg);transform:rotate(7.2deg)}
+.poll-results .result .radial-progress[data-progress="2"] .inset .percentage .numbers{width:180px}
+.poll-results .result .radial-progress[data-progress="3"] .circle .fill,.poll-results .result .radial-progress[data-progress="3"] .circle .mask.full{-webkit-transform:rotate(5.4deg);-ms-transform:rotate(5.4deg);transform:rotate(5.4deg)}
+.poll-results .result .radial-progress[data-progress="3"] .circle .fill.fix{-webkit-transform:rotate(10.8deg);-ms-transform:rotate(10.8deg);transform:rotate(10.8deg)}
+.poll-results .result .radial-progress[data-progress="3"] .inset .percentage .numbers{width:240px}
+.poll-results .result .radial-progress[data-progress="4"] .circle .fill,.poll-results .result .radial-progress[data-progress="4"] .circle .mask.full{-webkit-transform:rotate(7.2deg);-ms-transform:rotate(7.2deg);transform:rotate(7.2deg)}
+.poll-results .result .radial-progress[data-progress="4"] .circle .fill.fix{-webkit-transform:rotate(14.4deg);-ms-transform:rotate(14.4deg);transform:rotate(14.4deg)}
+.poll-results .result .radial-progress[data-progress="4"] .inset .percentage .numbers{width:300px}
+.poll-results .result .radial-progress[data-progress="5"] .circle .fill,.poll-results .result .radial-progress[data-progress="5"] .circle .mask.full{-webkit-transform:rotate(9deg);-ms-transform:rotate(9deg);transform:rotate(9deg)}
+.poll-results .result .radial-progress[data-progress="5"] .circle .fill.fix{-webkit-transform:rotate(18deg);-ms-transform:rotate(18deg);transform:rotate(18deg)}
+.poll-results .result .radial-progress[data-progress="5"] .inset .percentage .numbers{width:360px}
+.poll-results .result .radial-progress[data-progress="6"] .circle .fill,.poll-results .result .radial-progress[data-progress="6"] .circle .mask.full{-webkit-transform:rotate(10.8deg);-ms-transform:rotate(10.8deg);transform:rotate(10.8deg)}
+.poll-results .result .radial-progress[data-progress="6"] .circle .fill.fix{-webkit-transform:rotate(21.6deg);-ms-transform:rotate(21.6deg);transform:rotate(21.6deg)}
+.poll-results .result .radial-progress[data-progress="6"] .inset .percentage .numbers{width:420px}
+.poll-results .result .radial-progress[data-progress="7"] .circle .fill,.poll-results .result .radial-progress[data-progress="7"] .circle .mask.full{-webkit-transform:rotate(12.6deg);-ms-transform:rotate(12.6deg);transform:rotate(12.6deg)}
+.poll-results .result .radial-progress[data-progress="7"] .circle .fill.fix{-webkit-transform:rotate(25.2deg);-ms-transform:rotate(25.2deg);transform:rotate(25.2deg)}
+.poll-results .result .radial-progress[data-progress="7"] .inset .percentage .numbers{width:480px}
+.poll-results .result .radial-progress[data-progress="8"] .circle .fill,.poll-results .result .radial-progress[data-progress="8"] .circle .mask.full{-webkit-transform:rotate(14.4deg);-ms-transform:rotate(14.4deg);transform:rotate(14.4deg)}
+.poll-results .result .radial-progress[data-progress="8"] .circle .fill.fix{-webkit-transform:rotate(28.8deg);-ms-transform:rotate(28.8deg);transform:rotate(28.8deg)}
+.poll-results .result .radial-progress[data-progress="8"] .inset .percentage .numbers{width:540px}
+.poll-results .result .radial-progress[data-progress="9"] .circle .fill,.poll-results .result .radial-progress[data-progress="9"] .circle .mask.full{-webkit-transform:rotate(16.2deg);-ms-transform:rotate(16.2deg);transform:rotate(16.2deg)}
+.poll-results .result .radial-progress[data-progress="9"] .circle .fill.fix{-webkit-transform:rotate(32.4deg);-ms-transform:rotate(32.4deg);transform:rotate(32.4deg)}
+.poll-results .result .radial-progress[data-progress="9"] .inset .percentage .numbers{width:600px}
+.poll-results .result .radial-progress[data-progress="10"] .circle .fill,.poll-results .result .radial-progress[data-progress="10"] .circle .mask.full{-webkit-transform:rotate(18deg);-ms-transform:rotate(18deg);transform:rotate(18deg)}
+.poll-results .result .radial-progress[data-progress="10"] .circle .fill.fix{-webkit-transform:rotate(36deg);-ms-transform:rotate(36deg);transform:rotate(36deg)}
+.poll-results .result .radial-progress[data-progress="10"] .inset .percentage .numbers{width:660px}
+.poll-results .result .radial-progress[data-progress="11"] .circle .fill,.poll-results .result .radial-progress[data-progress="11"] .circle .mask.full{-webkit-transform:rotate(19.8deg);-ms-transform:rotate(19.8deg);transform:rotate(19.8deg)}
+.poll-results .result .radial-progress[data-progress="11"] .circle .fill.fix{-webkit-transform:rotate(39.6deg);-ms-transform:rotate(39.6deg);transform:rotate(39.6deg)}
+.poll-results .result .radial-progress[data-progress="11"] .inset .percentage .numbers{width:720px}
+.poll-results .result .radial-progress[data-progress="12"] .circle .fill,.poll-results .result .radial-progress[data-progress="12"] .circle .mask.full{-webkit-transform:rotate(21.6deg);-ms-transform:rotate(21.6deg);transform:rotate(21.6deg)}
+.poll-results .result .radial-progress[data-progress="12"] .circle .fill.fix{-webkit-transform:rotate(43.2deg);-ms-transform:rotate(43.2deg);transform:rotate(43.2deg)}
+.poll-results .result .radial-progress[data-progress="12"] .inset .percentage .numbers{width:780px}
+.poll-results .result .radial-progress[data-progress="13"] .circle .fill,.poll-results .result .radial-progress[data-progress="13"] .circle .mask.full{-webkit-transform:rotate(23.4deg);-ms-transform:rotate(23.4deg);transform:rotate(23.4deg)}
+.poll-results .result .radial-progress[data-progress="13"] .circle .fill.fix{-webkit-transform:rotate(46.8deg);-ms-transform:rotate(46.8deg);transform:rotate(46.8deg)}
+.poll-results .result .radial-progress[data-progress="13"] .inset .percentage .numbers{width:840px}
+.poll-results .result .radial-progress[data-progress="14"] .circle .fill,.poll-results .result .radial-progress[data-progress="14"] .circle .mask.full{-webkit-transform:rotate(25.2deg);-ms-transform:rotate(25.2deg);transform:rotate(25.2deg)}
+.poll-results .result .radial-progress[data-progress="14"] .circle .fill.fix{-webkit-transform:rotate(50.4deg);-ms-transform:rotate(50.4deg);transform:rotate(50.4deg)}
+.poll-results .result .radial-progress[data-progress="14"] .inset .percentage .numbers{width:900px}
+.poll-results .result .radial-progress[data-progress="15"] .circle .fill,.poll-results .result .radial-progress[data-progress="15"] .circle .mask.full{-webkit-transform:rotate(27deg);-ms-transform:rotate(27deg);transform:rotate(27deg)}
+.poll-results .result .radial-progress[data-progress="15"] .circle .fill.fix{-webkit-transform:rotate(54deg);-ms-transform:rotate(54deg);transform:rotate(54deg)}
+.poll-results .result .radial-progress[data-progress="15"] .inset .percentage .numbers{width:960px}
+.poll-results .result .radial-progress[data-progress="16"] .circle .fill,.poll-results .result .radial-progress[data-progress="16"] .circle .mask.full{-webkit-transform:rotate(28.8deg);-ms-transform:rotate(28.8deg);transform:rotate(28.8deg)}
+.poll-results .result .radial-progress[data-progress="16"] .circle .fill.fix{-webkit-transform:rotate(57.6deg);-ms-transform:rotate(57.6deg);transform:rotate(57.6deg)}
+.poll-results .result .radial-progress[data-progress="16"] .inset .percentage .numbers{width:1020px}
+.poll-results .result .radial-progress[data-progress="17"] .circle .fill,.poll-results .result .radial-progress[data-progress="17"] .circle .mask.full{-webkit-transform:rotate(30.6deg);-ms-transform:rotate(30.6deg);transform:rotate(30.6deg)}
+.poll-results .result .radial-progress[data-progress="17"] .circle .fill.fix{-webkit-transform:rotate(61.2deg);-ms-transform:rotate(61.2deg);transform:rotate(61.2deg)}
+.poll-results .result .radial-progress[data-progress="17"] .inset .percentage .numbers{width:1080px}
+.poll-results .result .radial-progress[data-progress="18"] .circle .fill,.poll-results .result .radial-progress[data-progress="18"] .circle .mask.full{-webkit-transform:rotate(32.4deg);-ms-transform:rotate(32.4deg);transform:rotate(32.4deg)}
+.poll-results .result .radial-progress[data-progress="18"] .circle .fill.fix{-webkit-transform:rotate(64.8deg);-ms-transform:rotate(64.8deg);transform:rotate(64.8deg)}
+.poll-results .result .radial-progress[data-progress="18"] .inset .percentage .numbers{width:1140px}
+.poll-results .result .radial-progress[data-progress="19"] .circle .fill,.poll-results .result .radial-progress[data-progress="19"] .circle .mask.full{-webkit-transform:rotate(34.2deg);-ms-transform:rotate(34.2deg);transform:rotate(34.2deg)}
+.poll-results .result .radial-progress[data-progress="19"] .circle .fill.fix{-webkit-transform:rotate(68.4deg);-ms-transform:rotate(68.4deg);transform:rotate(68.4deg)}
+.poll-results .result .radial-progress[data-progress="19"] .inset .percentage .numbers{width:1200px}
+.poll-results .result .radial-progress[data-progress="20"] .circle .fill,.poll-results .result .radial-progress[data-progress="20"] .circle .mask.full{-webkit-transform:rotate(36deg);-ms-transform:rotate(36deg);transform:rotate(36deg)}
+.poll-results .result .radial-progress[data-progress="20"] .circle .fill.fix{-webkit-transform:rotate(72deg);-ms-transform:rotate(72deg);transform:rotate(72deg)}
+.poll-results .result .radial-progress[data-progress="20"] .inset .percentage .numbers{width:1260px}
+.poll-results .result .radial-progress[data-progress="21"] .circle .fill,.poll-results .result .radial-progress[data-progress="21"] .circle .mask.full{-webkit-transform:rotate(37.8deg);-ms-transform:rotate(37.8deg);transform:rotate(37.8deg)}
+.poll-results .result .radial-progress[data-progress="21"] .circle .fill.fix{-webkit-transform:rotate(75.6deg);-ms-transform:rotate(75.6deg);transform:rotate(75.6deg)}
+.poll-results .result .radial-progress[data-progress="21"] .inset .percentage .numbers{width:1320px}
+.poll-results .result .radial-progress[data-progress="22"] .circle .fill,.poll-results .result .radial-progress[data-progress="22"] .circle .mask.full{-webkit-transform:rotate(39.6deg);-ms-transform:rotate(39.6deg);transform:rotate(39.6deg)}
+.poll-results .result .radial-progress[data-progress="22"] .circle .fill.fix{-webkit-transform:rotate(79.2deg);-ms-transform:rotate(79.2deg);transform:rotate(79.2deg)}
+.poll-results .result .radial-progress[data-progress="22"] .inset .percentage .numbers{width:1380px}
+.poll-results .result .radial-progress[data-progress="23"] .circle .fill,.poll-results .result .radial-progress[data-progress="23"] .circle .mask.full{-webkit-transform:rotate(41.4deg);-ms-transform:rotate(41.4deg);transform:rotate(41.4deg)}
+.poll-results .result .radial-progress[data-progress="23"] .circle .fill.fix{-webkit-transform:rotate(82.8deg);-ms-transform:rotate(82.8deg);transform:rotate(82.8deg)}
+.poll-results .result .radial-progress[data-progress="23"] .inset .percentage .numbers{width:1440px}
+.poll-results .result .radial-progress[data-progress="24"] .circle .fill,.poll-results .result .radial-progress[data-progress="24"] .circle .mask.full{-webkit-transform:rotate(43.2deg);-ms-transform:rotate(43.2deg);transform:rotate(43.2deg)}
+.poll-results .result .radial-progress[data-progress="24"] .circle .fill.fix{-webkit-transform:rotate(86.4deg);-ms-transform:rotate(86.4deg);transform:rotate(86.4deg)}
+.poll-results .result .radial-progress[data-progress="24"] .inset .percentage .numbers{width:1500px}
+.poll-results .result .radial-progress[data-progress="25"] .circle .fill,.poll-results .result .radial-progress[data-progress="25"] .circle .mask.full{-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg)}
+.poll-results .result .radial-progress[data-progress="25"] .circle .fill.fix{-webkit-transform:rotate(90deg);-ms-transform:rotate(90deg);transform:rotate(90deg)}
+.poll-results .result .radial-progress[data-progress="25"] .inset .percentage .numbers{width:1560px}
+.poll-results .result .radial-progress[data-progress="26"] .circle .fill,.poll-results .result .radial-progress[data-progress="26"] .circle .mask.full{-webkit-transform:rotate(46.8deg);-ms-transform:rotate(46.8deg);transform:rotate(46.8deg)}
+.poll-results .result .radial-progress[data-progress="26"] .circle .fill.fix{-webkit-transform:rotate(93.6deg);-ms-transform:rotate(93.6deg);transform:rotate(93.6deg)}
+.poll-results .result .radial-progress[data-progress="26"] .inset .percentage .numbers{width:1620px}
+.poll-results .result .radial-progress[data-progress="27"] .circle .fill,.poll-results .result .radial-progress[data-progress="27"] .circle .mask.full{-webkit-transform:rotate(48.6deg);-ms-transform:rotate(48.6deg);transform:rotate(48.6deg)}
+.poll-results .result .radial-progress[data-progress="27"] .circle .fill.fix{-webkit-transform:rotate(97.2deg);-ms-transform:rotate(97.2deg);transform:rotate(97.2deg)}
+.poll-results .result .radial-progress[data-progress="27"] .inset .percentage .numbers{width:1680px}
+.poll-results .result .radial-progress[data-progress="28"] .circle .fill,.poll-results .result .radial-progress[data-progress="28"] .circle .mask.full{-webkit-transform:rotate(50.4deg);-ms-transform:rotate(50.4deg);transform:rotate(50.4deg)}
+.poll-results .result .radial-progress[data-progress="28"] .circle .fill.fix{-webkit-transform:rotate(100.8deg);-ms-transform:rotate(100.8deg);transform:rotate(100.8deg)}
+.poll-results .result .radial-progress[data-progress="28"] .inset .percentage .numbers{width:1740px}
+.poll-results .result .radial-progress[data-progress="29"] .circle .fill,.poll-results .result .radial-progress[data-progress="29"] .circle .mask.full{-webkit-transform:rotate(52.2deg);-ms-transform:rotate(52.2deg);transform:rotate(52.2deg)}
+.poll-results .result .radial-progress[data-progress="29"] .circle .fill.fix{-webkit-transform:rotate(104.4deg);-ms-transform:rotate(104.4deg);transform:rotate(104.4deg)}
+.poll-results .result .radial-progress[data-progress="29"] .inset .percentage .numbers{width:1800px}
+.poll-results .result .radial-progress[data-progress="30"] .circle .fill,.poll-results .result .radial-progress[data-progress="30"] .circle .mask.full{-webkit-transform:rotate(54deg);-ms-transform:rotate(54deg);transform:rotate(54deg)}
+.poll-results .result .radial-progress[data-progress="30"] .circle .fill.fix{-webkit-transform:rotate(108deg);-ms-transform:rotate(108deg);transform:rotate(108deg)}
+.poll-results .result .radial-progress[data-progress="30"] .inset .percentage .numbers{width:1860px}
+.poll-results .result .radial-progress[data-progress="31"] .circle .fill,.poll-results .result .radial-progress[data-progress="31"] .circle .mask.full{-webkit-transform:rotate(55.8deg);-ms-transform:rotate(55.8deg);transform:rotate(55.8deg)}
+.poll-results .result .radial-progress[data-progress="31"] .circle .fill.fix{-webkit-transform:rotate(111.6deg);-ms-transform:rotate(111.6deg);transform:rotate(111.6deg)}
+.poll-results .result .radial-progress[data-progress="31"] .inset .percentage .numbers{width:1920px}
+.poll-results .result .radial-progress[data-progress="32"] .circle .fill,.poll-results .result .radial-progress[data-progress="32"] .circle .mask.full{-webkit-transform:rotate(57.6deg);-ms-transform:rotate(57.6deg);transform:rotate(57.6deg)}
+.poll-results .result .radial-progress[data-progress="32"] .circle .fill.fix{-webkit-transform:rotate(115.2deg);-ms-transform:rotate(115.2deg);transform:rotate(115.2deg)}
+.poll-results .result .radial-progress[data-progress="32"] .inset .percentage .numbers{width:1980px}
+.poll-results .result .radial-progress[data-progress="33"] .circle .fill,.poll-results .result .radial-progress[data-progress="33"] .circle .mask.full{-webkit-transform:rotate(59.4deg);-ms-transform:rotate(59.4deg);transform:rotate(59.4deg)}
+.poll-results .result .radial-progress[data-progress="33"] .circle .fill.fix{-webkit-transform:rotate(118.8deg);-ms-transform:rotate(118.8deg);transform:rotate(118.8deg)}
+.poll-results .result .radial-progress[data-progress="33"] .inset .percentage .numbers{width:2040px}
+.poll-results .result .radial-progress[data-progress="34"] .circle .fill,.poll-results .result .radial-progress[data-progress="34"] .circle .mask.full{-webkit-transform:rotate(61.2deg);-ms-transform:rotate(61.2deg);transform:rotate(61.2deg)}
+.poll-results .result .radial-progress[data-progress="34"] .circle .fill.fix{-webkit-transform:rotate(122.4deg);-ms-transform:rotate(122.4deg);transform:rotate(122.4deg)}
+.poll-results .result .radial-progress[data-progress="34"] .inset .percentage .numbers{width:2100px}
+.poll-results .result .radial-progress[data-progress="35"] .circle .fill,.poll-results .result .radial-progress[data-progress="35"] .circle .mask.full{-webkit-transform:rotate(63deg);-ms-transform:rotate(63deg);transform:rotate(63deg)}
+.poll-results .result .radial-progress[data-progress="35"] .circle .fill.fix{-webkit-transform:rotate(126deg);-ms-transform:rotate(126deg);transform:rotate(126deg)}
+.poll-results .result .radial-progress[data-progress="35"] .inset .percentage .numbers{width:2160px}
+.poll-results .result .radial-progress[data-progress="36"] .circle .fill,.poll-results .result .radial-progress[data-progress="36"] .circle .mask.full{-webkit-transform:rotate(64.8deg);-ms-transform:rotate(64.8deg);transform:rotate(64.8deg)}
+.poll-results .result .radial-progress[data-progress="36"] .circle .fill.fix{-webkit-transform:rotate(129.6deg);-ms-transform:rotate(129.6deg);transform:rotate(129.6deg)}
+.poll-results .result .radial-progress[data-progress="36"] .inset .percentage .numbers{width:2220px}
+.poll-results .result .radial-progress[data-progress="37"] .circle .fill,.poll-results .result .radial-progress[data-progress="37"] .circle .mask.full{-webkit-transform:rotate(66.6deg);-ms-transform:rotate(66.6deg);transform:rotate(66.6deg)}
+.poll-results .result .radial-progress[data-progress="37"] .circle .fill.fix{-webkit-transform:rotate(133.2deg);-ms-transform:rotate(133.2deg);transform:rotate(133.2deg)}
+.poll-results .result .radial-progress[data-progress="37"] .inset .percentage .numbers{width:2280px}
+.poll-results .result .radial-progress[data-progress="38"] .circle .fill,.poll-results .result .radial-progress[data-progress="38"] .circle .mask.full{-webkit-transform:rotate(68.4deg);-ms-transform:rotate(68.4deg);transform:rotate(68.4deg)}
+.poll-results .result .radial-progress[data-progress="38"] .circle .fill.fix{-webkit-transform:rotate(136.8deg);-ms-transform:rotate(136.8deg);transform:rotate(136.8deg)}
+.poll-results .result .radial-progress[data-progress="38"] .inset .percentage .numbers{width:2340px}
+.poll-results .result .radial-progress[data-progress="39"] .circle .fill,.poll-results .result .radial-progress[data-progress="39"] .circle .mask.full{-webkit-transform:rotate(70.2deg);-ms-transform:rotate(70.2deg);transform:rotate(70.2deg)}
+.poll-results .result .radial-progress[data-progress="39"] .circle .fill.fix{-webkit-transform:rotate(140.4deg);-ms-transform:rotate(140.4deg);transform:rotate(140.4deg)}
+.poll-results .result .radial-progress[data-progress="39"] .inset .percentage .numbers{width:2400px}
+.poll-results .result .radial-progress[data-progress="40"] .circle .fill,.poll-results .result .radial-progress[data-progress="40"] .circle .mask.full{-webkit-transform:rotate(72deg);-ms-transform:rotate(72deg);transform:rotate(72deg)}
+.poll-results .result .radial-progress[data-progress="40"] .circle .fill.fix{-webkit-transform:rotate(144deg);-ms-transform:rotate(144deg);transform:rotate(144deg)}
+.poll-results .result .radial-progress[data-progress="40"] .inset .percentage .numbers{width:2460px}
+.poll-results .result .radial-progress[data-progress="41"] .circle .fill,.poll-results .result .radial-progress[data-progress="41"] .circle .mask.full{-webkit-transform:rotate(73.8deg);-ms-transform:rotate(73.8deg);transform:rotate(73.8deg)}
+.poll-results .result .radial-progress[data-progress="41"] .circle .fill.fix{-webkit-transform:rotate(147.6deg);-ms-transform:rotate(147.6deg);transform:rotate(147.6deg)}
+.poll-results .result .radial-progress[data-progress="41"] .inset .percentage .numbers{width:2520px}
+.poll-results .result .radial-progress[data-progress="42"] .circle .fill,.poll-results .result .radial-progress[data-progress="42"] .circle .mask.full{-webkit-transform:rotate(75.6deg);-ms-transform:rotate(75.6deg);transform:rotate(75.6deg)}
+.poll-results .result .radial-progress[data-progress="42"] .circle .fill.fix{-webkit-transform:rotate(151.2deg);-ms-transform:rotate(151.2deg);transform:rotate(151.2deg)}
+.poll-results .result .radial-progress[data-progress="42"] .inset .percentage .numbers{width:2580px}
+.poll-results .result .radial-progress[data-progress="43"] .circle .fill,.poll-results .result .radial-progress[data-progress="43"] .circle .mask.full{-webkit-transform:rotate(77.4deg);-ms-transform:rotate(77.4deg);transform:rotate(77.4deg)}
+.poll-results .result .radial-progress[data-progress="43"] .circle .fill.fix{-webkit-transform:rotate(154.8deg);-ms-transform:rotate(154.8deg);transform:rotate(154.8deg)}
+.poll-results .result .radial-progress[data-progress="43"] .inset .percentage .numbers{width:2640px}
+.poll-results .result .radial-progress[data-progress="44"] .circle .fill,.poll-results .result .radial-progress[data-progress="44"] .circle .mask.full{-webkit-transform:rotate(79.2deg);-ms-transform:rotate(79.2deg);transform:rotate(79.2deg)}
+.poll-results .result .radial-progress[data-progress="44"] .circle .fill.fix{-webkit-transform:rotate(158.4deg);-ms-transform:rotate(158.4deg);transform:rotate(158.4deg)}
+.poll-results .result .radial-progress[data-progress="44"] .inset .percentage .numbers{width:2700px}
+.poll-results .result .radial-progress[data-progress="45"] .circle .fill,.poll-results .result .radial-progress[data-progress="45"] .circle .mask.full{-webkit-transform:rotate(81deg);-ms-transform:rotate(81deg);transform:rotate(81deg)}
+.poll-results .result .radial-progress[data-progress="45"] .circle .fill.fix{-webkit-transform:rotate(162deg);-ms-transform:rotate(162deg);transform:rotate(162deg)}
+.poll-results .result .radial-progress[data-progress="45"] .inset .percentage .numbers{width:2760px}
+.poll-results .result .radial-progress[data-progress="46"] .circle .fill,.poll-results .result .radial-progress[data-progress="46"] .circle .mask.full{-webkit-transform:rotate(82.8deg);-ms-transform:rotate(82.8deg);transform:rotate(82.8deg)}
+.poll-results .result .radial-progress[data-progress="46"] .circle .fill.fix{-webkit-transform:rotate(165.6deg);-ms-transform:rotate(165.6deg);transform:rotate(165.6deg)}
+.poll-results .result .radial-progress[data-progress="46"] .inset .percentage .numbers{width:2820px}
+.poll-results .result .radial-progress[data-progress="47"] .circle .fill,.poll-results .result .radial-progress[data-progress="47"] .circle .mask.full{-webkit-transform:rotate(84.6deg);-ms-transform:rotate(84.6deg);transform:rotate(84.6deg)}
+.poll-results .result .radial-progress[data-progress="47"] .circle .fill.fix{-webkit-transform:rotate(169.2deg);-ms-transform:rotate(169.2deg);transform:rotate(169.2deg)}
+.poll-results .result .radial-progress[data-progress="47"] .inset .percentage .numbers{width:2880px}
+.poll-results .result .radial-progress[data-progress="48"] .circle .fill,.poll-results .result .radial-progress[data-progress="48"] .circle .mask.full{-webkit-transform:rotate(86.4deg);-ms-transform:rotate(86.4deg);transform:rotate(86.4deg)}
+.poll-results .result .radial-progress[data-progress="48"] .circle .fill.fix{-webkit-transform:rotate(172.8deg);-ms-transform:rotate(172.8deg);transform:rotate(172.8deg)}
+.poll-results .result .radial-progress[data-progress="48"] .inset .percentage .numbers{width:2940px}
+.poll-results .result .radial-progress[data-progress="49"] .circle .fill,.poll-results .result .radial-progress[data-progress="49"] .circle .mask.full{-webkit-transform:rotate(88.2deg);-ms-transform:rotate(88.2deg);transform:rotate(88.2deg)}
+.poll-results .result .radial-progress[data-progress="49"] .circle .fill.fix{-webkit-transform:rotate(176.4deg);-ms-transform:rotate(176.4deg);transform:rotate(176.4deg)}
+.poll-results .result .radial-progress[data-progress="49"] .inset .percentage .numbers{width:3000px}
+.poll-results .result .radial-progress[data-progress="50"] .circle .fill,.poll-results .result .radial-progress[data-progress="50"] .circle .mask.full{-webkit-transform:rotate(90deg);-ms-transform:rotate(90deg);transform:rotate(90deg)}
+.poll-results .result .radial-progress[data-progress="50"] .circle .fill.fix{-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg)}
+.poll-results .result .radial-progress[data-progress="50"] .inset .percentage .numbers{width:3060px}
+.poll-results .result .radial-progress[data-progress="51"] .circle .fill,.poll-results .result .radial-progress[data-progress="51"] .circle .mask.full{-webkit-transform:rotate(91.8deg);-ms-transform:rotate(91.8deg);transform:rotate(91.8deg)}
+.poll-results .result .radial-progress[data-progress="51"] .circle .fill.fix{-webkit-transform:rotate(183.6deg);-ms-transform:rotate(183.6deg);transform:rotate(183.6deg)}
+.poll-results .result .radial-progress[data-progress="51"] .inset .percentage .numbers{width:3120px}
+.poll-results .result .radial-progress[data-progress="52"] .circle .fill,.poll-results .result .radial-progress[data-progress="52"] .circle .mask.full{-webkit-transform:rotate(93.6deg);-ms-transform:rotate(93.6deg);transform:rotate(93.6deg)}
+.poll-results .result .radial-progress[data-progress="52"] .circle .fill.fix{-webkit-transform:rotate(187.2deg);-ms-transform:rotate(187.2deg);transform:rotate(187.2deg)}
+.poll-results .result .radial-progress[data-progress="52"] .inset .percentage .numbers{width:3180px}
+.poll-results .result .radial-progress[data-progress="53"] .circle .fill,.poll-results .result .radial-progress[data-progress="53"] .circle .mask.full{-webkit-transform:rotate(95.4deg);-ms-transform:rotate(95.4deg);transform:rotate(95.4deg)}
+.poll-results .result .radial-progress[data-progress="53"] .circle .fill.fix{-webkit-transform:rotate(190.8deg);-ms-transform:rotate(190.8deg);transform:rotate(190.8deg)}
+.poll-results .result .radial-progress[data-progress="53"] .inset .percentage .numbers{width:3240px}
+.poll-results .result .radial-progress[data-progress="54"] .circle .fill,.poll-results .result .radial-progress[data-progress="54"] .circle .mask.full{-webkit-transform:rotate(97.2deg);-ms-transform:rotate(97.2deg);transform:rotate(97.2deg)}
+.poll-results .result .radial-progress[data-progress="54"] .circle .fill.fix{-webkit-transform:rotate(194.4deg);-ms-transform:rotate(194.4deg);transform:rotate(194.4deg)}
+.poll-results .result .radial-progress[data-progress="54"] .inset .percentage .numbers{width:3300px}
+.poll-results .result .radial-progress[data-progress="55"] .circle .fill,.poll-results .result .radial-progress[data-progress="55"] .circle .mask.full{-webkit-transform:rotate(99deg);-ms-transform:rotate(99deg);transform:rotate(99deg)}
+.poll-results .result .radial-progress[data-progress="55"] .circle .fill.fix{-webkit-transform:rotate(198deg);-ms-transform:rotate(198deg);transform:rotate(198deg)}
+.poll-results .result .radial-progress[data-progress="55"] .inset .percentage .numbers{width:3360px}
+.poll-results .result .radial-progress[data-progress="56"] .circle .fill,.poll-results .result .radial-progress[data-progress="56"] .circle .mask.full{-webkit-transform:rotate(100.8deg);-ms-transform:rotate(100.8deg);transform:rotate(100.8deg)}
+.poll-results .result .radial-progress[data-progress="56"] .circle .fill.fix{-webkit-transform:rotate(201.6deg);-ms-transform:rotate(201.6deg);transform:rotate(201.6deg)}
+.poll-results .result .radial-progress[data-progress="56"] .inset .percentage .numbers{width:3420px}
+.poll-results .result .radial-progress[data-progress="57"] .circle .fill,.poll-results .result .radial-progress[data-progress="57"] .circle .mask.full{-webkit-transform:rotate(102.6deg);-ms-transform:rotate(102.6deg);transform:rotate(102.6deg)}
+.poll-results .result .radial-progress[data-progress="57"] .circle .fill.fix{-webkit-transform:rotate(205.2deg);-ms-transform:rotate(205.2deg);transform:rotate(205.2deg)}
+.poll-results .result .radial-progress[data-progress="57"] .inset .percentage .numbers{width:3480px}
+.poll-results .result .radial-progress[data-progress="58"] .circle .fill,.poll-results .result .radial-progress[data-progress="58"] .circle .mask.full{-webkit-transform:rotate(104.4deg);-ms-transform:rotate(104.4deg);transform:rotate(104.4deg)}
+.poll-results .result .radial-progress[data-progress="58"] .circle .fill.fix{-webkit-transform:rotate(208.8deg);-ms-transform:rotate(208.8deg);transform:rotate(208.8deg)}
+.poll-results .result .radial-progress[data-progress="58"] .inset .percentage .numbers{width:3540px}
+.poll-results .result .radial-progress[data-progress="59"] .circle .fill,.poll-results .result .radial-progress[data-progress="59"] .circle .mask.full{-webkit-transform:rotate(106.2deg);-ms-transform:rotate(106.2deg);transform:rotate(106.2deg)}
+.poll-results .result .radial-progress[data-progress="59"] .circle .fill.fix{-webkit-transform:rotate(212.4deg);-ms-transform:rotate(212.4deg);transform:rotate(212.4deg)}
+.poll-results .result .radial-progress[data-progress="59"] .inset .percentage .numbers{width:3600px}
+.poll-results .result .radial-progress[data-progress="60"] .circle .fill,.poll-results .result .radial-progress[data-progress="60"] .circle .mask.full{-webkit-transform:rotate(108deg);-ms-transform:rotate(108deg);transform:rotate(108deg)}
+.poll-results .result .radial-progress[data-progress="60"] .circle .fill.fix{-webkit-transform:rotate(216deg);-ms-transform:rotate(216deg);transform:rotate(216deg)}
+.poll-results .result .radial-progress[data-progress="60"] .inset .percentage .numbers{width:3660px}
+.poll-results .result .radial-progress[data-progress="61"] .circle .fill,.poll-results .result .radial-progress[data-progress="61"] .circle .mask.full{-webkit-transform:rotate(109.8deg);-ms-transform:rotate(109.8deg);transform:rotate(109.8deg)}
+.poll-results .result .radial-progress[data-progress="61"] .circle .fill.fix{-webkit-transform:rotate(219.6deg);-ms-transform:rotate(219.6deg);transform:rotate(219.6deg)}
+.poll-results .result .radial-progress[data-progress="61"] .inset .percentage .numbers{width:3720px}
+.poll-results .result .radial-progress[data-progress="62"] .circle .fill,.poll-results .result .radial-progress[data-progress="62"] .circle .mask.full{-webkit-transform:rotate(111.6deg);-ms-transform:rotate(111.6deg);transform:rotate(111.6deg)}
+.poll-results .result .radial-progress[data-progress="62"] .circle .fill.fix{-webkit-transform:rotate(223.2deg);-ms-transform:rotate(223.2deg);transform:rotate(223.2deg)}
+.poll-results .result .radial-progress[data-progress="62"] .inset .percentage .numbers{width:3780px}
+.poll-results .result .radial-progress[data-progress="63"] .circle .fill,.poll-results .result .radial-progress[data-progress="63"] .circle .mask.full{-webkit-transform:rotate(113.4deg);-ms-transform:rotate(113.4deg);transform:rotate(113.4deg)}
+.poll-results .result .radial-progress[data-progress="63"] .circle .fill.fix{-webkit-transform:rotate(226.8deg);-ms-transform:rotate(226.8deg);transform:rotate(226.8deg)}
+.poll-results .result .radial-progress[data-progress="63"] .inset .percentage .numbers{width:3840px}
+.poll-results .result .radial-progress[data-progress="64"] .circle .fill,.poll-results .result .radial-progress[data-progress="64"] .circle .mask.full{-webkit-transform:rotate(115.2deg);-ms-transform:rotate(115.2deg);transform:rotate(115.2deg)}
+.poll-results .result .radial-progress[data-progress="64"] .circle .fill.fix{-webkit-transform:rotate(230.4deg);-ms-transform:rotate(230.4deg);transform:rotate(230.4deg)}
+.poll-results .result .radial-progress[data-progress="64"] .inset .percentage .numbers{width:3900px}
+.poll-results .result .radial-progress[data-progress="65"] .circle .fill,.poll-results .result .radial-progress[data-progress="65"] .circle .mask.full{-webkit-transform:rotate(117deg);-ms-transform:rotate(117deg);transform:rotate(117deg)}
+.poll-results .result .radial-progress[data-progress="65"] .circle .fill.fix{-webkit-transform:rotate(234deg);-ms-transform:rotate(234deg);transform:rotate(234deg)}
+.poll-results .result .radial-progress[data-progress="65"] .inset .percentage .numbers{width:3960px}
+.poll-results .result .radial-progress[data-progress="66"] .circle .fill,.poll-results .result .radial-progress[data-progress="66"] .circle .mask.full{-webkit-transform:rotate(118.8deg);-ms-transform:rotate(118.8deg);transform:rotate(118.8deg)}
+.poll-results .result .radial-progress[data-progress="66"] .circle .fill.fix{-webkit-transform:rotate(237.6deg);-ms-transform:rotate(237.6deg);transform:rotate(237.6deg)}
+.poll-results .result .radial-progress[data-progress="66"] .inset .percentage .numbers{width:4020px}
+.poll-results .result .radial-progress[data-progress="67"] .circle .fill,.poll-results .result .radial-progress[data-progress="67"] .circle .mask.full{-webkit-transform:rotate(120.6deg);-ms-transform:rotate(120.6deg);transform:rotate(120.6deg)}
+.poll-results .result .radial-progress[data-progress="67"] .circle .fill.fix{-webkit-transform:rotate(241.2deg);-ms-transform:rotate(241.2deg);transform:rotate(241.2deg)}
+.poll-results .result .radial-progress[data-progress="67"] .inset .percentage .numbers{width:4080px}
+.poll-results .result .radial-progress[data-progress="68"] .circle .fill,.poll-results .result .radial-progress[data-progress="68"] .circle .mask.full{-webkit-transform:rotate(122.4deg);-ms-transform:rotate(122.4deg);transform:rotate(122.4deg)}
+.poll-results .result .radial-progress[data-progress="68"] .circle .fill.fix{-webkit-transform:rotate(244.8deg);-ms-transform:rotate(244.8deg);transform:rotate(244.8deg)}
+.poll-results .result .radial-progress[data-progress="68"] .inset .percentage .numbers{width:4140px}
+.poll-results .result .radial-progress[data-progress="69"] .circle .fill,.poll-results .result .radial-progress[data-progress="69"] .circle .mask.full{-webkit-transform:rotate(124.2deg);-ms-transform:rotate(124.2deg);transform:rotate(124.2deg)}
+.poll-results .result .radial-progress[data-progress="69"] .circle .fill.fix{-webkit-transform:rotate(248.4deg);-ms-transform:rotate(248.4deg);transform:rotate(248.4deg)}
+.poll-results .result .radial-progress[data-progress="69"] .inset .percentage .numbers{width:4200px}
+.poll-results .result .radial-progress[data-progress="70"] .circle .fill,.poll-results .result .radial-progress[data-progress="70"] .circle .mask.full{-webkit-transform:rotate(126deg);-ms-transform:rotate(126deg);transform:rotate(126deg)}
+.poll-results .result .radial-progress[data-progress="70"] .circle .fill.fix{-webkit-transform:rotate(252deg);-ms-transform:rotate(252deg);transform:rotate(252deg)}
+.poll-results .result .radial-progress[data-progress="70"] .inset .percentage .numbers{width:4260px}
+.poll-results .result .radial-progress[data-progress="71"] .circle .fill,.poll-results .result .radial-progress[data-progress="71"] .circle .mask.full{-webkit-transform:rotate(127.8deg);-ms-transform:rotate(127.8deg);transform:rotate(127.8deg)}
+.poll-results .result .radial-progress[data-progress="71"] .circle .fill.fix{-webkit-transform:rotate(255.6deg);-ms-transform:rotate(255.6deg);transform:rotate(255.6deg)}
+.poll-results .result .radial-progress[data-progress="71"] .inset .percentage .numbers{width:4320px}
+.poll-results .result .radial-progress[data-progress="72"] .circle .fill,.poll-results .result .radial-progress[data-progress="72"] .circle .mask.full{-webkit-transform:rotate(129.6deg);-ms-transform:rotate(129.6deg);transform:rotate(129.6deg)}
+.poll-results .result .radial-progress[data-progress="72"] .circle .fill.fix{-webkit-transform:rotate(259.2deg);-ms-transform:rotate(259.2deg);transform:rotate(259.2deg)}
+.poll-results .result .radial-progress[data-progress="72"] .inset .percentage .numbers{width:4380px}
+.poll-results .result .radial-progress[data-progress="73"] .circle .fill,.poll-results .result .radial-progress[data-progress="73"] .circle .mask.full{-webkit-transform:rotate(131.4deg);-ms-transform:rotate(131.4deg);transform:rotate(131.4deg)}
+.poll-results .result .radial-progress[data-progress="73"] .circle .fill.fix{-webkit-transform:rotate(262.8deg);-ms-transform:rotate(262.8deg);transform:rotate(262.8deg)}
+.poll-results .result .radial-progress[data-progress="73"] .inset .percentage .numbers{width:4440px}
+.poll-results .result .radial-progress[data-progress="74"] .circle .fill,.poll-results .result .radial-progress[data-progress="74"] .circle .mask.full{-webkit-transform:rotate(133.2deg);-ms-transform:rotate(133.2deg);transform:rotate(133.2deg)}
+.poll-results .result .radial-progress[data-progress="74"] .circle .fill.fix{-webkit-transform:rotate(266.4deg);-ms-transform:rotate(266.4deg);transform:rotate(266.4deg)}
+.poll-results .result .radial-progress[data-progress="74"] .inset .percentage .numbers{width:4500px}
+.poll-results .result .radial-progress[data-progress="75"] .circle .fill,.poll-results .result .radial-progress[data-progress="75"] .circle .mask.full{-webkit-transform:rotate(135deg);-ms-transform:rotate(135deg);transform:rotate(135deg)}
+.poll-results .result .radial-progress[data-progress="75"] .circle .fill.fix{-webkit-transform:rotate(270deg);-ms-transform:rotate(270deg);transform:rotate(270deg)}
+.poll-results .result .radial-progress[data-progress="75"] .inset .percentage .numbers{width:4560px}
+.poll-results .result .radial-progress[data-progress="76"] .circle .fill,.poll-results .result .radial-progress[data-progress="76"] .circle .mask.full{-webkit-transform:rotate(136.8deg);-ms-transform:rotate(136.8deg);transform:rotate(136.8deg)}
+.poll-results .result .radial-progress[data-progress="76"] .circle .fill.fix{-webkit-transform:rotate(273.6deg);-ms-transform:rotate(273.6deg);transform:rotate(273.6deg)}
+.poll-results .result .radial-progress[data-progress="76"] .inset .percentage .numbers{width:4620px}
+.poll-results .result .radial-progress[data-progress="77"] .circle .fill,.poll-results .result .radial-progress[data-progress="77"] .circle .mask.full{-webkit-transform:rotate(138.6deg);-ms-transform:rotate(138.6deg);transform:rotate(138.6deg)}
+.poll-results .result .radial-progress[data-progress="77"] .circle .fill.fix{-webkit-transform:rotate(277.2deg);-ms-transform:rotate(277.2deg);transform:rotate(277.2deg)}
+.poll-results .result .radial-progress[data-progress="77"] .inset .percentage .numbers{width:4680px}
+.poll-results .result .radial-progress[data-progress="78"] .circle .fill,.poll-results .result .radial-progress[data-progress="78"] .circle .mask.full{-webkit-transform:rotate(140.4deg);-ms-transform:rotate(140.4deg);transform:rotate(140.4deg)}
+.poll-results .result .radial-progress[data-progress="78"] .circle .fill.fix{-webkit-transform:rotate(280.8deg);-ms-transform:rotate(280.8deg);transform:rotate(280.8deg)}
+.poll-results .result .radial-progress[data-progress="78"] .inset .percentage .numbers{width:4740px}
+.poll-results .result .radial-progress[data-progress="79"] .circle .fill,.poll-results .result .radial-progress[data-progress="79"] .circle .mask.full{-webkit-transform:rotate(142.2deg);-ms-transform:rotate(142.2deg);transform:rotate(142.2deg)}
+.poll-results .result .radial-progress[data-progress="79"] .circle .fill.fix{-webkit-transform:rotate(284.4deg);-ms-transform:rotate(284.4deg);transform:rotate(284.4deg)}
+.poll-results .result .radial-progress[data-progress="79"] .inset .percentage .numbers{width:4800px}
+.poll-results .result .radial-progress[data-progress="80"] .circle .fill,.poll-results .result .radial-progress[data-progress="80"] .circle .mask.full{-webkit-transform:rotate(144deg);-ms-transform:rotate(144deg);transform:rotate(144deg)}
+.poll-results .result .radial-progress[data-progress="80"] .circle .fill.fix{-webkit-transform:rotate(288deg);-ms-transform:rotate(288deg);transform:rotate(288deg)}
+.poll-results .result .radial-progress[data-progress="80"] .inset .percentage .numbers{width:4860px}
+.poll-results .result .radial-progress[data-progress="81"] .circle .fill,.poll-results .result .radial-progress[data-progress="81"] .circle .mask.full{-webkit-transform:rotate(145.8deg);-ms-transform:rotate(145.8deg);transform:rotate(145.8deg)}
+.poll-results .result .radial-progress[data-progress="81"] .circle .fill.fix{-webkit-transform:rotate(291.6deg);-ms-transform:rotate(291.6deg);transform:rotate(291.6deg)}
+.poll-results .result .radial-progress[data-progress="81"] .inset .percentage .numbers{width:4920px}
+.poll-results .result .radial-progress[data-progress="82"] .circle .fill,.poll-results .result .radial-progress[data-progress="82"] .circle .mask.full{-webkit-transform:rotate(147.6deg);-ms-transform:rotate(147.6deg);transform:rotate(147.6deg)}
+.poll-results .result .radial-progress[data-progress="82"] .circle .fill.fix{-webkit-transform:rotate(295.2deg);-ms-transform:rotate(295.2deg);transform:rotate(295.2deg)}
+.poll-results .result .radial-progress[data-progress="82"] .inset .percentage .numbers{width:4980px}
+.poll-results .result .radial-progress[data-progress="83"] .circle .fill,.poll-results .result .radial-progress[data-progress="83"] .circle .mask.full{-webkit-transform:rotate(149.4deg);-ms-transform:rotate(149.4deg);transform:rotate(149.4deg)}
+.poll-results .result .radial-progress[data-progress="83"] .circle .fill.fix{-webkit-transform:rotate(298.8deg);-ms-transform:rotate(298.8deg);transform:rotate(298.8deg)}
+.poll-results .result .radial-progress[data-progress="83"] .inset .percentage .numbers{width:5040px}
+.poll-results .result .radial-progress[data-progress="84"] .circle .fill,.poll-results .result .radial-progress[data-progress="84"] .circle .mask.full{-webkit-transform:rotate(151.2deg);-ms-transform:rotate(151.2deg);transform:rotate(151.2deg)}
+.poll-results .result .radial-progress[data-progress="84"] .circle .fill.fix{-webkit-transform:rotate(302.4deg);-ms-transform:rotate(302.4deg);transform:rotate(302.4deg)}
+.poll-results .result .radial-progress[data-progress="84"] .inset .percentage .numbers{width:5100px}
+.poll-results .result .radial-progress[data-progress="85"] .circle .fill,.poll-results .result .radial-progress[data-progress="85"] .circle .mask.full{-webkit-transform:rotate(153deg);-ms-transform:rotate(153deg);transform:rotate(153deg)}
+.poll-results .result .radial-progress[data-progress="85"] .circle .fill.fix{-webkit-transform:rotate(306deg);-ms-transform:rotate(306deg);transform:rotate(306deg)}
+.poll-results .result .radial-progress[data-progress="85"] .inset .percentage .numbers{width:5160px}
+.poll-results .result .radial-progress[data-progress="86"] .circle .fill,.poll-results .result .radial-progress[data-progress="86"] .circle .mask.full{-webkit-transform:rotate(154.8deg);-ms-transform:rotate(154.8deg);transform:rotate(154.8deg)}
+.poll-results .result .radial-progress[data-progress="86"] .circle .fill.fix{-webkit-transform:rotate(309.6deg);-ms-transform:rotate(309.6deg);transform:rotate(309.6deg)}
+.poll-results .result .radial-progress[data-progress="86"] .inset .percentage .numbers{width:5220px}
+.poll-results .result .radial-progress[data-progress="87"] .circle .fill,.poll-results .result .radial-progress[data-progress="87"] .circle .mask.full{-webkit-transform:rotate(156.6deg);-ms-transform:rotate(156.6deg);transform:rotate(156.6deg)}
+.poll-results .result .radial-progress[data-progress="87"] .circle .fill.fix{-webkit-transform:rotate(313.2deg);-ms-transform:rotate(313.2deg);transform:rotate(313.2deg)}
+.poll-results .result .radial-progress[data-progress="87"] .inset .percentage .numbers{width:5280px}
+.poll-results .result .radial-progress[data-progress="88"] .circle .fill,.poll-results .result .radial-progress[data-progress="88"] .circle .mask.full{-webkit-transform:rotate(158.4deg);-ms-transform:rotate(158.4deg);transform:rotate(158.4deg)}
+.poll-results .result .radial-progress[data-progress="88"] .circle .fill.fix{-webkit-transform:rotate(316.8deg);-ms-transform:rotate(316.8deg);transform:rotate(316.8deg)}
+.poll-results .result .radial-progress[data-progress="88"] .inset .percentage .numbers{width:5340px}
+.poll-results .result .radial-progress[data-progress="89"] .circle .fill,.poll-results .result .radial-progress[data-progress="89"] .circle .mask.full{-webkit-transform:rotate(160.2deg);-ms-transform:rotate(160.2deg);transform:rotate(160.2deg)}
+.poll-results .result .radial-progress[data-progress="89"] .circle .fill.fix{-webkit-transform:rotate(320.4deg);-ms-transform:rotate(320.4deg);transform:rotate(320.4deg)}
+.poll-results .result .radial-progress[data-progress="89"] .inset .percentage .numbers{width:5400px}
+.poll-results .result .radial-progress[data-progress="90"] .circle .fill,.poll-results .result .radial-progress[data-progress="90"] .circle .mask.full{-webkit-transform:rotate(162deg);-ms-transform:rotate(162deg);transform:rotate(162deg)}
+.poll-results .result .radial-progress[data-progress="90"] .circle .fill.fix{-webkit-transform:rotate(324deg);-ms-transform:rotate(324deg);transform:rotate(324deg)}
+.poll-results .result .radial-progress[data-progress="90"] .inset .percentage .numbers{width:5460px}
+.poll-results .result .radial-progress[data-progress="91"] .circle .fill,.poll-results .result .radial-progress[data-progress="91"] .circle .mask.full{-webkit-transform:rotate(163.8deg);-ms-transform:rotate(163.8deg);transform:rotate(163.8deg)}
+.poll-results .result .radial-progress[data-progress="91"] .circle .fill.fix{-webkit-transform:rotate(327.6deg);-ms-transform:rotate(327.6deg);transform:rotate(327.6deg)}
+.poll-results .result .radial-progress[data-progress="91"] .inset .percentage .numbers{width:5520px}
+.poll-results .result .radial-progress[data-progress="92"] .circle .fill,.poll-results .result .radial-progress[data-progress="92"] .circle .mask.full{-webkit-transform:rotate(165.6deg);-ms-transform:rotate(165.6deg);transform:rotate(165.6deg)}
+.poll-results .result .radial-progress[data-progress="92"] .circle .fill.fix{-webkit-transform:rotate(331.2deg);-ms-transform:rotate(331.2deg);transform:rotate(331.2deg)}
+.poll-results .result .radial-progress[data-progress="92"] .inset .percentage .numbers{width:5580px}
+.poll-results .result .radial-progress[data-progress="93"] .circle .fill,.poll-results .result .radial-progress[data-progress="93"] .circle .mask.full{-webkit-transform:rotate(167.4deg);-ms-transform:rotate(167.4deg);transform:rotate(167.4deg)}
+.poll-results .result .radial-progress[data-progress="93"] .circle .fill.fix{-webkit-transform:rotate(334.8deg);-ms-transform:rotate(334.8deg);transform:rotate(334.8deg)}
+.poll-results .result .radial-progress[data-progress="93"] .inset .percentage .numbers{width:5640px}
+.poll-results .result .radial-progress[data-progress="94"] .circle .fill,.poll-results .result .radial-progress[data-progress="94"] .circle .mask.full{-webkit-transform:rotate(169.2deg);-ms-transform:rotate(169.2deg);transform:rotate(169.2deg)}
+.poll-results .result .radial-progress[data-progress="94"] .circle .fill.fix{-webkit-transform:rotate(338.4deg);-ms-transform:rotate(338.4deg);transform:rotate(338.4deg)}
+.poll-results .result .radial-progress[data-progress="94"] .inset .percentage .numbers{width:5700px}
+.poll-results .result .radial-progress[data-progress="95"] .circle .fill,.poll-results .result .radial-progress[data-progress="95"] .circle .mask.full{-webkit-transform:rotate(171deg);-ms-transform:rotate(171deg);transform:rotate(171deg)}
+.poll-results .result .radial-progress[data-progress="95"] .circle .fill.fix{-webkit-transform:rotate(342deg);-ms-transform:rotate(342deg);transform:rotate(342deg)}
+.poll-results .result .radial-progress[data-progress="95"] .inset .percentage .numbers{width:5760px}
+.poll-results .result .radial-progress[data-progress="96"] .circle .fill,.poll-results .result .radial-progress[data-progress="96"] .circle .mask.full{-webkit-transform:rotate(172.8deg);-ms-transform:rotate(172.8deg);transform:rotate(172.8deg)}
+.poll-results .result .radial-progress[data-progress="96"] .circle .fill.fix{-webkit-transform:rotate(345.6deg);-ms-transform:rotate(345.6deg);transform:rotate(345.6deg)}
+.poll-results .result .radial-progress[data-progress="96"] .inset .percentage .numbers{width:5820px}
+.poll-results .result .radial-progress[data-progress="97"] .circle .fill,.poll-results .result .radial-progress[data-progress="97"] .circle .mask.full{-webkit-transform:rotate(174.6deg);-ms-transform:rotate(174.6deg);transform:rotate(174.6deg)}
+.poll-results .result .radial-progress[data-progress="97"] .circle .fill.fix{-webkit-transform:rotate(349.2deg);-ms-transform:rotate(349.2deg);transform:rotate(349.2deg)}
+.poll-results .result .radial-progress[data-progress="97"] .inset .percentage .numbers{width:5880px}
+.poll-results .result .radial-progress[data-progress="98"] .circle .fill,.poll-results .result .radial-progress[data-progress="98"] .circle .mask.full{-webkit-transform:rotate(176.4deg);-ms-transform:rotate(176.4deg);transform:rotate(176.4deg)}
+.poll-results .result .radial-progress[data-progress="98"] .circle .fill.fix{-webkit-transform:rotate(352.8deg);-ms-transform:rotate(352.8deg);transform:rotate(352.8deg)}
+.poll-results .result .radial-progress[data-progress="98"] .inset .percentage .numbers{width:5940px}
+.poll-results .result .radial-progress[data-progress="99"] .circle .fill,.poll-results .result .radial-progress[data-progress="99"] .circle .mask.full{-webkit-transform:rotate(178.2deg);-ms-transform:rotate(178.2deg);transform:rotate(178.2deg)}
+.poll-results .result .radial-progress[data-progress="99"] .circle .fill.fix{-webkit-transform:rotate(356.4deg);-ms-transform:rotate(356.4deg);transform:rotate(356.4deg)}
+.poll-results .result .radial-progress[data-progress="99"] .inset .percentage .numbers{width:6000px}
+.poll-results .result .radial-progress[data-progress="100"] .circle .fill,.poll-results .result .radial-progress[data-progress="100"] .circle .mask.full{-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg)}
+.poll-results .result .radial-progress[data-progress="100"] .circle .fill.fix{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg)}
+.poll-results .result .radial-progress[data-progress="100"] .inset .percentage .numbers{width:6060px}
+.poll-results .result .votes{font-size:12px;text-transform:uppercase}
+.poll-results.four-results{flex-wrap:wrap}
+.poll-results.four-results .result{height:50%}
+.poll-results-voting-gallery{opacity:0;visibility:hidden;transition:opacity .25s ease-in-out,visibility .25s ease-in-out;z-index:3}
+.poll-results-voting-gallery.show{opacity:1;visibility:visible}
+.poll-results-voting-gallery .result{color:#fff;width:100%}
+.poll-results-voting-gallery .result .radial-progress{margin:1.5em 0}
+.poll-results-voting-gallery .result .name,.poll-results-voting-gallery .result .votes{font-size:1.8em;text-transform:uppercase}
+.poll.threeway .poll-form-voting-gallery fieldset{width:31.45%}
 @media (max-width:68.75em){
 .poll.threeway .poll-form-voting-gallery fieldset{width:calc(33.45% - 1.5em)}
 }
@@ -1973,7 +2324,7 @@ body.module-reading-list-loaded.module-reading-list-collapsed.header-active,body
 .poll-form-voting-gallery fieldset:nth-of-type(2) .form-input-voting-gallery.chosen+label{background-color:#ec008c}
 }
 .poll-form-voting-gallery fieldset:not(:last-of-type){margin-right:2em}
-.poll-form-voting-gallery fieldset:not(:last-of-type):after{content:'';display:block;position:absolute;top:calc(48% - 30px);right:-40px;width:60px;height:60px;z-index:5}
+.poll-form-voting-gallery fieldset:not(:last-of-type):after{background:url(http://www.usmag-online.com/g1/v1/perf/mm-01a/img/polls/versus.svg) center center no-repeat;content:'';display:block;position:absolute;top:calc(48% - 30px);right:-40px;width:60px;height:60px;z-index:5}
 .poll-form-voting-gallery fieldset:not(:last-of-type) .poll-results .result .fill{background:radial-gradient(transparent 37px,#00aeff 0)}
 .poll-form-voting-gallery fieldset:hover label{display:block}
 .poll-form-voting-gallery fieldset .poll-image-container{cursor:pointer;margin:0;pointer-events:none;position:relative;z-index:2}
@@ -1987,7 +2338,7 @@ body.module-reading-list-loaded.module-reading-list-collapsed.header-active,body
 }
 .poll-form-voting-gallery fieldset .poll-image-container .poll-voting-gallery-info span{color:#000}
 .poll-form-voting-gallery fieldset .form-input-voting-gallery{cursor:pointer;position:absolute;top:0;left:0;width:100%;height:100%;z-index:1}
-.poll-form-voting-gallery fieldset label{font-size:17px;background-size:27%;color:#fff;display:none;padding-top:70%;pointer-events:none;position:absolute;text-align:center;text-transform:uppercase;top:0;left:0;width:100%;height:100%;z-index:4}
+.poll-form-voting-gallery fieldset label{font-size:17px;background:url(http://www.usmag-online.com/g1/v1/perf/mm-01a/img/polls/checkmark.svg) center 48% no-repeat rgba(0,0,0,.3);background-size:27%;color:#fff;display:none;padding-top:70%;pointer-events:none;position:absolute;text-align:center;text-transform:uppercase;top:0;left:0;width:100%;height:100%;z-index:4}
 .poll-form-watercooler{width:260px}
 .poll-form-watercooler.inactive .poll-wrapper.result-2 .poll-button,.poll-form-watercooler.inactive .poll-wrapper.result-4 .poll-button{margin-bottom:0}
 .poll-form-watercooler.inactive .poll-wrapper.result-3 .poll-button{margin-top:6px}
@@ -2606,18 +2957,18 @@ body.login-page.error .login-message{color:red;text-align:center}
 .gallery-body-content-slide .enlarged-image{display:-webkit-box;display:-webkit-flex;display:-moz-flex;display:-ms-flexbox;display:flex;-moz-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;-webkit-align-items:center;-moz-align-items:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;-moz-justify-content:center;justify-content:center;background:rgba(0,0,0,.8);height:100%;left:0;opacity:0;position:fixed;top:0;visibility:hidden;width:100%;z-index:-100}
 .gallery-body-content-slide .enlarged-image.enlarged{opacity:1;visibility:visible;z-index:100}
 .gallery-body-content-slide .enlarged-image-container{height:80%;position:relative}
-.gallery-body-content-slide .enlarged-image-container-close{cursor:pointer;height:50px;right:-49px;position:absolute;top:0;width:50px;z-index:2}
+.gallery-body-content-slide .enlarged-image-container-close{background:url(http://www.usmag-online.com/g1/v1/perf/mm-01a/img/gallery/close-button.svg) no-repeat;cursor:pointer;height:50px;right:-49px;position:absolute;top:0;width:50px;z-index:2}
 .gallery-body-content-slide .enlarged-image-container-close:after{content:'';position:fixed;left:0;top:0;width:100%;height:100%;z-index:1}
 .gallery-body-content-slide .enlarged-image-container img{height:100%;width:auto;position:relative;z-index:2}
-.gallery-body-content-slide.intro-slide .scroll-jammie-control-open,.gallery-body-content-slide.single-slide .scroll-jammie-control-open{display:block;height:54px;max-width:100%;margin-top:20px;position:relative;font-size:20px;line-height:54px;text-align:center;text-transform:uppercase;border-radius:5px;color:#fff}
+.gallery-body-content-slide.intro-slide .scroll-jammie-control-open,.gallery-body-content-slide.single-slide .scroll-jammie-control-open{display:block;height:54px;max-width:100%;margin-top:20px;position:relative;font-size:20px;line-height:54px;text-align:center;text-transform:uppercase;background:url(http://www.usmag-online.com/assets/usweekly/src/img/gallery/gallery-icon.svg) 15px center no-repeat #ec008c;border-radius:5px;color:#fff}
 .gallery-body-content-slide.intro-slide .gallery-slide-description,.gallery-body-content-slide.single-slide .gallery-slide-description{max-height:0;overflow:hidden;transition:all .5s ease}
 .no-js .gallery-body-content-slide.intro-slide .gallery-slide-description,.no-js .gallery-body-content-slide.single-slide .gallery-slide-description,.scroll-jammie-active .gallery-body-content-slide.intro-slide .gallery-slide-description,.scroll-jammie-active .gallery-body-content-slide.single-slide .gallery-slide-description{max-height:50em}
 .no-js .gallery-body-content-slide.intro-slide .gallery-slide-description,.no-js .gallery-body-content-slide.single-slide .gallery-slide-description{margin-top:1.33333em}
-.gallery-body-content-slide.intro-slide .gallery-count,.gallery-body-content-slide.single-slide .gallery-count{width:62px;height:62px;bottom:56px;left:10px;position:absolute;text-align:center;font:33px/62px "Relay Cond Regular";color:#fff}
+.gallery-body-content-slide.intro-slide .gallery-count,.gallery-body-content-slide.single-slide .gallery-count{width:62px;height:62px;bottom:56px;left:10px;position:absolute;text-align:center;font:33px/62px "Relay Cond Regular";background:url(http://www.usmag-online.com/assets/usweekly/src/img/gallery/image-counter.svg) no-repeat;color:#fff}
 .gallery-body-content-slide.intro-slide .gallery-count:hover,.gallery-body-content-slide.single-slide .gallery-count:hover{opacity:.7}
 .gallery-body-content-slide .slide-credit{width:54%;position:relative}
 .gallery-body-content-slide .slide-credit img{margin-bottom:20px}
-.gallery-body-content-slide .slide-credit .enlarge-button{cursor:pointer;height:30px;right:15px;opacity:0;position:absolute;top:15px;transition:opacity .25s ease-in-out,visibility .25s ease-in-out;visibility:hidden;width:30px}
+.gallery-body-content-slide .slide-credit .enlarge-button{background:url(http://www.usmag-online.com/g1/v1/perf/mm-01a/img/gallery/expand-image.svg) no-repeat;cursor:pointer;height:30px;right:15px;opacity:0;position:absolute;top:15px;transition:opacity .25s ease-in-out,visibility .25s ease-in-out;visibility:hidden;width:30px}
 @media (min-width:51.25em){
 .gallery-body-content-slide .slide-credit:hover .enlarge-button{opacity:1;visibility:visible}
 }
@@ -2727,6 +3078,60 @@ body.module-reading-list-collapsed #comment .lightbox-content #disqus_thread{pad
 .error .container{position:relative;text-align:center;color:#fff}
 .error .container:before{position:absolute;top:0;left:0;height:100%;background:linear-gradient(to bottom,rgba(0,0,0,.65) 0,transparent 100%);z-index:1}
 .error .container .copy{max-width:62em;margin:0 auto;min-height:80em;position:relative;z-index:2}
+@media (max-width:50em){
+.error .container .copy{min-height:60em}
+}
+.error .container .copy h2{font:70px/70px "Relay Cond Bold"}
+@media (max-width:50em){
+.error .container .copy h2{font:60px/60px "Relay Cond Bold"}
+}
+@media (max-width:30em){
+.error .container .copy{min-height:32em}
+.error .container .copy h2{font:40px/40px "Relay Cond Bold"}
+}
+.error .container .copy p{font-size:30px;line-height:36px}
+@media (max-width:50em){
+.error .container .copy p{font-size:25px;line-height:30px}
+}
+.error .container .copy p a{color:#ec008c}
+.error .container.background-1{background:url(http://www.usmag-online.com/g1/v1/perf/mm-01a/img/error/1.jpg) center no-repeat #000}
+@media (max-width:30em){
+.error .container .copy p{font-size:17px;line-height:19px}
+.error .container.background-1{background-size:cover}
+}
+.error .container.background-2{background:url(http://www.usmag-online.com/g1/v1/perf/mm-01a/img/error/2.jpg) center no-repeat #000}
+@media (max-width:30em){
+.error .container.background-2{background-size:cover}
+}
+.error .container.background-3{background:url(http://www.usmag-online.com/g1/v1/perf/mm-01a/img/error/3.jpg) center no-repeat #000}
+@media (max-width:30em){
+.error .container.background-3{background-size:cover}
+}
+.error .container.background-4{background:url(http://www.usmag-online.com/g1/v1/perf/mm-01a/img/error/4.jpg) center no-repeat #000}
+@media (max-width:30em){
+.error .container.background-4{background-size:cover}
+}
+.error .container.background-5{background:url(http://www.usmag-online.com/g1/v1/perf/mm-01a/img/error/5.jpg) center no-repeat #000}
+@media (max-width:30em){
+.error .container.background-5{background-size:cover}
+}
+.error .container.background-6{background:url(http://www.usmag-online.com/g1/v1/perf/mm-01a/img/error/6.jpg) center no-repeat #000}
+@media (max-width:30em){
+.error .container.background-6{background-size:cover}
+}
+.error .container.background-7{background:url(http://www.usmag-online.com/g1/v1/perf/mm-01a/img/error/7.jpg) center no-repeat #000}
+@media (max-width:30em){
+.error .container.background-7{background-size:cover}
+}
+.error .container.background-8{background:url(http://www.usmag-online.com/g1/v1/perf/mm-01a/img/error/8.jpg) center no-repeat #000}
+@media (max-width:30em){
+.error .container.background-8{background-size:cover}
+}
+.error .container.background-9{background:url(http://www.usmag-online.com/g1/v1/perf/mm-01a/img/error/9.jpg) center no-repeat #000}
+@media (max-width:30em){
+.error .container.background-9{background-size:cover}
+}
+.error .container.background-10{background:url(http://www.usmag-online.com/g1/v1/perf/mm-01a/img/error/10.jpg) center no-repeat #000}
 #channel-nav{position:relative}
 .channel-nav{margin:0;font-size:15px;line-height:55px;list-style:none;text-align:center;text-transform:uppercase;border-bottom:1px solid #eaeaea}
 .channel-nav-item{display:inline-block;margin:0 2.6em 0 0;vertical-align:middle}
