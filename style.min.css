@@ -1023,7 +1023,7 @@ body.channel .header-nav{background:0 0}
 @media (max-width:46.875em){
 .header-nav-search,.header-nav-secondary-social{display:none}
 }
-.header-nav-logo{position:absolute;left:0;top:-9.5em;display:block;width:11em;height:8.5em;transition:all .5s ease;background:url(logo.png) center center no-repeat}
+.header-nav-logo{position:absolute;left:0;top:-9.5em;display:block;width:11em;height:8.5em;transition:all .5s ease;}
 .header-nav-logo span{width:0;height:0;display:block;text-indent:-999em}
 .header-nav-logo svg{width:100%;height:auto}
 .header-nav-logo svg .letter-u{-webkit-filter:drop-shadow(2px 2px 4px rgba(0, 0, 0, .35));filter:drop-shadow(2px 2px 4px rgba(0, 0, 0, .25))}
