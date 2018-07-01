@@ -531,7 +531,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,secti
 audio,canvas,progress,video{display:inline-block;vertical-align:baseline}
 audio:not([controls]){display:none;height:0}
 [hidden],template{display:none}
-a{background-color:transparent;text-decoration:none;color:#e50000}
+a{background-color:transparent;text-decoration:none;}
 .header-trending-story a:active,.header-trending-story a:hover,.header-trending-tags a:active,.header-trending-tags a:hover{text-decoration:underline}
 a:active,a:hover{outline:0}
 abbr[title]{border-bottom:1px dotted}
