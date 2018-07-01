@@ -15857,7 +15857,7 @@ p {
 		display: none;
 	}
 	.sidebar {
-		margin-top: 240px;
+		margin-top: 24px;
 		margin-left: 60px;
 	}
 	@media (min-width:1550px) {
